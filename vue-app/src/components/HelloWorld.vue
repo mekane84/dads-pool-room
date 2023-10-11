@@ -3,7 +3,9 @@
 
 <template>
   <div class="greetings">
-    <h1 class="green">Dad&rsquo;s Pool Room</h1>
+    <h1 class="green">
+      <router-link to="/">Dad&rsquo;s Pool Room</router-link>
+    </h1>
     <h3>
       Relax and kick off your shoes
     </h3>
