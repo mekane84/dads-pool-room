@@ -1,17 +1,19 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
+import OneIcon from './icons/IconOne.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import IconSemi from "@/components/icons/IconSemi.vue";
 </script>
 
 <template>
   <main>
     <WelcomeItem>
       <template #icon>
-        <DocumentationIcon />
+        <OneIcon />
       </template>
       <template #heading>Day One</template>
       <ul>
@@ -72,10 +74,19 @@ import SupportIcon from './icons/IconSupport.vue'
 
     <WelcomeItem>
       <template #icon>
-        <SupportIcon />
+        <DocumentationIcon />
       </template>
       <template #heading>
         <router-link to="/day6">Day Six: Quarterfinals</router-link>
+      </template>
+    </WelcomeItem>
+
+    <WelcomeItem>
+      <template #icon>
+        <IconSemi/>
+      </template>
+      <template #heading>
+        <router-link to="/semis">Semifinals: HIGHLIGHTS ONLY</router-link>
       </template>
     </WelcomeItem>
   </main>
