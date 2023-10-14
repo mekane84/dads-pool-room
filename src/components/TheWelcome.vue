@@ -1,12 +1,13 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
 import OneIcon from './icons/IconOne.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
+import CloverIcon from './icons/IconClover.vue'
 import ToolingIcon from './icons/IconTooling.vue'
+import CubesIcon from './icons/IconCubes.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import FolderTreeIcon from './icons/IconFolderTree.vue'
 import IconSemi from "@/components/icons/IconSemi.vue";
+import IconFinals from "@/components/icons/IconFinals.vue";
 </script>
 
 <template>
@@ -46,7 +47,7 @@ import IconSemi from "@/components/icons/IconSemi.vue";
 
     <WelcomeItem>
       <template #icon>
-        <EcosystemIcon />
+        <CubesIcon />
       </template>
       <template #heading>
         <router-link to="/day3">Day Three</router-link>
@@ -56,7 +57,7 @@ import IconSemi from "@/components/icons/IconSemi.vue";
 
     <WelcomeItem>
       <template #icon>
-        <CommunityIcon />
+        <CloverIcon />
       </template>
       <template #heading>
         <router-link to="/day4">Day Four</router-link>
@@ -65,7 +66,7 @@ import IconSemi from "@/components/icons/IconSemi.vue";
 
     <WelcomeItem>
       <template #icon>
-        <SupportIcon />
+        <FolderTreeIcon />
       </template>
       <template #heading>
         <router-link to="/day5">Day Five: Round of 16</router-link>
@@ -74,7 +75,7 @@ import IconSemi from "@/components/icons/IconSemi.vue";
 
     <WelcomeItem>
       <template #icon>
-        <DocumentationIcon />
+        <EcosystemIcon />
       </template>
       <template #heading>
         <router-link to="/day6">Day Six: Quarterfinals</router-link>
@@ -87,6 +88,15 @@ import IconSemi from "@/components/icons/IconSemi.vue";
       </template>
       <template #heading>
         <router-link to="/semis">Semifinals: HIGHLIGHTS ONLY</router-link>
+      </template>
+    </WelcomeItem>
+
+    <WelcomeItem>
+      <template #icon>
+        <IconFinals/>
+      </template>
+      <template #heading>
+        <router-link to="/finals">Finals: HIGHLIGHTS ONLY</router-link>
       </template>
     </WelcomeItem>
   </main>

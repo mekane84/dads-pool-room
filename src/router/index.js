@@ -10,6 +10,7 @@ import DayFour from "@/views/DayFour.vue";
 import DayFive from "@/views/DayFive.vue";
 import DaySix from "@/views/DaySix.vue";
 import Semis from "@/views/Semis.vue";
+import Finals from "@/views/Finals.vue";
 
 const routes = [
   {path: '/', name: 'Home', component: Home},
@@ -22,7 +23,8 @@ const routes = [
   {path: '/day4', name: 'Day 4', component: DayFour},
   {path: '/day5', name: 'Day 5', component: DayFive},
   {path: '/day6', name: 'Day 6', component: DaySix},
-  {path: '/semis', name: 'Semifinals', component: Semis}
+  {path: '/semis', name: 'Semifinals', component: Semis},
+  {path: '/finals', name: 'Finals', component: Finals},
 ]
 
 const router = createRouter({
