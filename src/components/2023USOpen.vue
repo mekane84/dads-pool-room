@@ -19,13 +19,13 @@ import IconFinals from "@/components/icons/IconFinals.vue";
       <template #heading>Day One</template>
       <ul>
         <li>
-          <router-link to="/preview">Preview</router-link>
+          <router-link to="/2023usopen/preview">Preview</router-link>
         </li>
         <li>
-          <router-link to="/day1-round1">Part One</router-link>
+          <router-link to="/2023usopen/day1-round1">Part One</router-link>
         </li>
         <li>
-          <router-link to="/day1-round2">Part Two</router-link>
+          <router-link to="/2023usopen/day1-round2">Part Two</router-link>
         </li>
       </ul>
     </WelcomeItem>
@@ -37,10 +37,10 @@ import IconFinals from "@/components/icons/IconFinals.vue";
       <template #heading>Day Two</template>
       <ul>
         <li>
-          <router-link to="/day2-round1">Part One</router-link>
+          <router-link to="/2023usopen/day2-round1">Part One</router-link>
         </li>
         <li>
-          <router-link to="/day2-round2">Part Two</router-link>
+          <router-link to="/2023usopen/day2-round2">Part Two</router-link>
         </li>
       </ul>
     </WelcomeItem>
@@ -50,7 +50,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <CubesIcon />
       </template>
       <template #heading>
-        <router-link to="/day3">Day Three</router-link>
+        <router-link to="/2023usopen/day3">Day Three</router-link>
       </template>
 
     </WelcomeItem>
@@ -60,7 +60,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <CloverIcon />
       </template>
       <template #heading>
-        <router-link to="/day4">Day Four</router-link>
+        <router-link to="/2023usopen/day4">Day Four</router-link>
       </template>
     </WelcomeItem>
 
@@ -69,7 +69,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <FolderTreeIcon />
       </template>
       <template #heading>
-        <router-link to="/day5">Day Five: Round of 16</router-link>
+        <router-link to="/2023usopen/day5">Day Five: Round of 16</router-link>
       </template>
     </WelcomeItem>
 
@@ -78,7 +78,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <EcosystemIcon />
       </template>
       <template #heading>
-        <router-link to="/day6">Day Six: Quarterfinals</router-link>
+        <router-link to="/2023usopen/day6">Day Six: Quarterfinals</router-link>
       </template>
     </WelcomeItem>
 
@@ -87,7 +87,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <IconSemi/>
       </template>
       <template #heading>
-        <router-link to="/semis">Semifinals: HIGHLIGHTS ONLY</router-link>
+        <router-link to="/2023usopen/semis">Semifinals: HIGHLIGHTS ONLY</router-link>
       </template>
     </WelcomeItem>
 
@@ -96,7 +96,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <IconFinals/>
       </template>
       <template #heading>
-        <router-link to="/finals">Finals: HIGHLIGHTS ONLY</router-link>
+        <router-link to="/2023usopen/finals">Finals: HIGHLIGHTS ONLY</router-link>
       </template>
     </WelcomeItem>
   </main>

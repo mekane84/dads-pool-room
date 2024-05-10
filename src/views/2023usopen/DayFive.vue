@@ -3,6 +3,10 @@
 </script>
 
 <template>
+  <div style="margin-bottom: 10px">
+    <router-link to="/2023usopen">Back to 2023 US Open</router-link>
+  </div>
+
   <div>
     <h2>Day 5: Round of 16</h2>
     <ul>
