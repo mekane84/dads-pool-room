@@ -20,6 +20,9 @@ import DayFive from "@/views/2023usopen/DayFive.vue";
 import DaySix from "@/views/2023usopen/DaySix.vue";
 import Semis from "@/views/2023usopen/Semis.vue";
 import Finals from "@/views/2023usopen/Finals.vue";
+import TheRack2024Finals from "@/views/2024therack/TheRack2024Finals.vue";
+import TheRack2024SemiFinal from "@/views/2024therack/TheRack2024SemiFinal.vue";
+import TheRack2024PartFive from "@/views/2024therack/TheRack2024PartFive.vue";
 
 const routes = [
 
@@ -31,6 +34,9 @@ const routes = [
   {path: '/2024therack/part3', name: 'TheRack2024PartThree', component: TheRack2024PartThree},
   {path: '/2024therack/hotseat', name: 'TheRack2024HotseatMatch', component: TheRack2024HotseatMatch},
   {path: '/2024therack/part4', name: 'TheRack2024PartFour', component: TheRack2024PartFour},
+  {path: '/2024therack/part5', name: 'TheRack2024PartFive', component: TheRack2024PartFive},
+  {path: '/2024therack/semi-final', name: 'TheRack2024SemiFinal', component: TheRack2024SemiFinal},
+  {path: '/2024therack/final', name: 'TheRack2024Finals', component: TheRack2024Finals},
 
   {path: '/2023usopen', name: 'USOpen2023Index', component: USOpen2023Index},
   {path: '/2023usopen/preview', name: 'Day 1, Preview', component: Preview},
