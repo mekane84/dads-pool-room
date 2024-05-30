@@ -20,9 +20,15 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <li>
           <router-link to="/2024bigtymeclassic/one-pocket/thursday">Wednesday/Thursday Part 1</router-link>
         </li>
-<!--        <li>-->
-<!--          <router-link to="/2024bigtymeclassic/one-pocket/friday">Friday</router-link>-->
-<!--        </li>-->
+        <li>
+          <router-link to="/2024bigtymeclassic/one-pocket/thursday-2">Thursday Part 2</router-link>
+        </li>
+        <li>
+          <router-link to="/2024bigtymeclassic/one-pocket/thursday-3">Thursday Part 3</router-link>
+        </li>
+        <li>
+          <router-link to="/2024bigtymeclassic/one-pocket/hot-seat">Hot Seat</router-link>
+        </li>
       </ul>
     </WelcomeItem>
   </main>
