@@ -29,6 +29,15 @@ import BTC2024OPThursday2 from "@/views/2024bigtimeclassic/onepocket/BTC2024OPTh
 import BTC2024OPThursday3 from "@/views/2024bigtimeclassic/onepocket/BTC2024OPThursday3.vue";
 import BTC2024OPHotSeat from "@/views/2024bigtimeclassic/onepocket/BTC2024OPHotSeat.vue";
 import BTC2024OPSemiAndFinal from "@/views/2024bigtimeclassic/onepocket/BTC2024OPSemiAndFinal.vue";
+import BTC20249BallFridayPart1 from "@/views/2024bigtimeclassic/nineball/BTC20249BallFridayPart1.vue";
+import BTC20249BallSaturdayPart2 from "@/views/2024bigtimeclassic/nineball/BTC20249BallSaturdayPart2.vue";
+import BTC20249BallSunday1 from "@/views/2024bigtimeclassic/nineball/BTC20249BallSunday1.vue";
+import BTC20249BallSunday2 from "@/views/2024bigtimeclassic/nineball/BTC20249BallSunday2.vue";
+import BTC20249BallSunday3 from "@/views/2024bigtimeclassic/nineball/BTC20249BallSunday3.vue";
+import BTC20249BallSunday4 from "@/views/2024bigtimeclassic/nineball/BTC20249BallSunday4.vue";
+import BTC20249BallHotSeat from "@/views/2024bigtimeclassic/nineball/BTC20249BallHotSeat.vue";
+import BTC20249BallSemis from "@/views/2024bigtimeclassic/nineball/BTC20249BallSemis.vue";
+import BTC20249BallFinal from "@/views/2024bigtimeclassic/nineball/BTC20249BallFinal.vue";
 
 const routes = [
 
@@ -40,6 +49,15 @@ const routes = [
   {path: '/2024bigtymeclassic/one-pocket/thursday-3', name: 'BTC2024OPThursday3', component: BTC2024OPThursday3},
   {path: '/2024bigtymeclassic/one-pocket/hot-seat', name: 'BTC2024OPHotSeat', component: BTC2024OPHotSeat},
   {path: '/2024bigtymeclassic/one-pocket/semis-and-finals', name: 'BTC2024OPSemiAndFinal', component: BTC2024OPSemiAndFinal},
+  {path: '/2024bigtymeclassic/9-ball/friday', name: 'BTC20249BallFridayPart1', component: BTC20249BallFridayPart1},
+  {path: '/2024bigtymeclassic/9-ball/saturday', name: 'BTC20249BallSaturdayPart2', component: BTC20249BallSaturdayPart2},
+  {path: '/2024bigtymeclassic/9-ball/sunday-1', name: 'BTC20249BallSunday1', component: BTC20249BallSunday1},
+  {path: '/2024bigtymeclassic/9-ball/sunday-2', name: 'BTC20249BallSunday2', component: BTC20249BallSunday2},
+  {path: '/2024bigtymeclassic/9-ball/sunday-3', name: 'BTC20249BallSunday3', component: BTC20249BallSunday3},
+  {path: '/2024bigtymeclassic/9-ball/sunday-4', name: 'BTC20249BallSunday4', component: BTC20249BallSunday4},
+  {path: '/2024bigtymeclassic/9-ball/hot-seat', name: 'BTC20249BallHotSeat', component: BTC20249BallHotSeat},
+  {path: '/2024bigtymeclassic/9-ball/semi', name: 'BTC20249BallSemis', component: BTC20249BallSemis},
+  {path: '/2024bigtymeclassic/9-ball/final', name: 'BTC20249BallFinal', component: BTC20249BallFinal},
 
   {path: '/2024therack', name: 'TheRack2024Index', component: TheRack2024Index},
   {path: '/2024therack/part1', name: 'TheRack2024PartOne', component: TheRack2024PartOne},
