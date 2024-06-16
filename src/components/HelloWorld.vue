@@ -3,7 +3,7 @@
 
 <template>
   <div class="greetings">
-    <h1 class="green">
+    <h1>
       <router-link to="/">Dad&rsquo;s Pool Room</router-link>
     </h1>
     <h3>
@@ -14,8 +14,9 @@
 
 <style scoped>
 h1 {
+  font-family: 'Dancing Script', 'Brush Script MT', cursive;
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 4.2rem;
   position: relative;
   top: -10px;
 }

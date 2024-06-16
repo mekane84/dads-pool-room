@@ -38,10 +38,34 @@ import BTC20249BallSunday4 from "@/views/2024bigtimeclassic/nineball/BTC20249Bal
 import BTC20249BallHotSeat from "@/views/2024bigtimeclassic/nineball/BTC20249BallHotSeat.vue";
 import BTC20249BallSemis from "@/views/2024bigtimeclassic/nineball/BTC20249BallSemis.vue";
 import BTC20249BallFinal from "@/views/2024bigtimeclassic/nineball/BTC20249BallFinal.vue";
+import ScottyTownsendMemorialIndex from "@/views/2024/stmemorial/ScottyTownsendMemorialIndex.vue";
+import STM20249BPart1 from "@/views/2024/stmemorial/nineball/STM20249BPart1.vue";
+import STM20249BPart2 from "@/views/2024/stmemorial/nineball/STM20249BPart2.vue";
+import STM20249BPart3 from "@/views/2024/stmemorial/nineball/STM20249BPart3.vue";
+import STM20249BPart4 from "@/views/2024/stmemorial/nineball/STM20249BPart4.vue";
+import STM20249BPartHotSeat from "@/views/2024/stmemorial/nineball/STM20249BPartHotSeat.vue";
+import STM20249BPart6 from "@/views/2024/stmemorial/nineball/STM20249BPart6.vue";
+import STM20249BPart5 from "@/views/2024/stmemorial/nineball/STM20249BPart5.vue";
+import STM20249BSemiFinal from "@/views/2024/stmemorial/nineball/STM20249BSemiFinal.vue";
+import STM20249BFinal from "@/views/2024/stmemorial/nineball/STM20249BFinal.vue";
+import ChampionsChallenge2024 from "@/views/2024/championschallenge/ChampionsChallenge2024.vue";
 
 const routes = [
 
   {path: '/', name: 'Home', component: Home},
+
+  {path: '/2024/champions-challenge', name: 'ChampionsChallenge2024', component: ChampionsChallenge2024},
+
+  {path: '/2024/scottytownsendmemorial', name: 'ScottyTownsendMemorialIndex', component: ScottyTownsendMemorialIndex},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-1', name: 'STM20249BPart1', component: STM20249BPart1},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-2', name: 'STM20249BPart2', component: STM20249BPart2},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-3', name: 'STM20249BPart3', component: STM20249BPart3},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-4', name: 'STM20249BPart4', component: STM20249BPart4},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-5', name: 'STM20249BPart5', component: STM20249BPart5},
+  {path: '/2024/scottytownsendmemorial/9-ball/hot-seat', name: 'STM20249BPartHotSeat', component: STM20249BPartHotSeat},
+  {path: '/2024/scottytownsendmemorial/9-ball/part-6', name: 'STM20249BPart6', component: STM20249BPart6},
+  {path: '/2024/scottytownsendmemorial/9-ball/semi-final', name: 'STM20249BSemiFinal', component: STM20249BSemiFinal},
+  {path: '/2024/scottytownsendmemorial/9-ball/final', name: 'STM20249BFinal', component: STM20249BFinal},
 
   {path: '/2024bigtymeclassic', name: 'BigTymeClassic2024Index', component: BigTymeClassic2024Index},
   {path: '/2024bigtymeclassic/one-pocket/thursday', name: 'BTC2024OPThursday1', component: BTC2024OPThursday1},

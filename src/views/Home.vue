@@ -15,10 +15,15 @@
       <li>
         <router-link to="/2024bigtymeclassic">2024 Big Tyme Classic</router-link>
       </li>
+      <li>
+        <router-link to="/2024/scottytownsendmemorial">2024 Scotty Townsend Memorail</router-link>
+      </li>
+      <li>
+        <router-link to="/2024/champions-challenge">2024 Champions Challenge</router-link>
+      </li>
     </ul>
   </main>
 </template>
 
 <style scoped>
-
 </style>
