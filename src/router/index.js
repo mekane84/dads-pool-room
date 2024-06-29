@@ -49,10 +49,29 @@ import STM20249BPart5 from "@/views/2024/stmemorial/nineball/STM20249BPart5.vue"
 import STM20249BSemiFinal from "@/views/2024/stmemorial/nineball/STM20249BSemiFinal.vue";
 import STM20249BFinal from "@/views/2024/stmemorial/nineball/STM20249BFinal.vue";
 import ChampionsChallenge2024 from "@/views/2024/championschallenge/ChampionsChallenge2024.vue";
+import BuffalosPC2024 from "@/views/2024/buffalospc/BuffalosPC2024.vue";
+import OnePocketTuesday from "@/views/2024/buffalospc/onepocket/OnePocketTuesday.vue";
+import OnePocketWednesdayEvents1 from "@/views/2024/buffalospc/onepocket/OnePocketWednesdayEvents1.vue";
+import OnePocketWednesdayEvents2 from "@/views/2024/buffalospc/onepocket/OnePocketWednesdayEvents2.vue";
+import OnePocketSaturday1 from "@/views/2024/buffalospc/onepocket/OnePocketSaturday1.vue";
+import OnePocketSaturday2 from "@/views/2024/buffalospc/onepocket/OnePocketSaturday2.vue";
+import OnePocketSunday1 from "@/views/2024/buffalospc/onepocket/OnePocketSunday1.vue";
+import OnePocketSunday2 from "@/views/2024/buffalospc/onepocket/OnePocketSunday2.vue";
+import NineBall from "@/views/2024/buffalospc/nineball/NineBall.vue";
 
 const routes = [
 
   {path: '/', name: 'Home', component: Home},
+
+  {path: '/2024/buffalospc', name: 'BuffalosPC2024', component: BuffalosPC2024},
+  {path: '/2024/buffalospc/onepocket/tuesday', name: 'OnePocketTuesday', component: OnePocketTuesday},
+  {path: '/2024/buffalospc/onepocket/wednesday-events-1', name: 'OnePocketWednesdayEvents1', component: OnePocketWednesdayEvents1},
+  {path: '/2024/buffalospc/onepocket/wednesday-events-2', name: 'OnePocketWednesdayEvents2', component: OnePocketWednesdayEvents2},
+  {path: '/2024/buffalospc/onepocket/saturday-1', name: 'OnePocketSaturday1', component: OnePocketSaturday1},
+  {path: '/2024/buffalospc/onepocket/saturday-2', name: 'OnePocketSaturday2', component: OnePocketSaturday2},
+  {path: '/2024/buffalospc/onepocket/sunday-1', name: 'OnePocketSunday1', component: OnePocketSunday1},
+  {path: '/2024/buffalospc/onepocket/sunday-2', name: 'OnePocketSunday2', component: OnePocketSunday2},
+  {path: '/2024/buffalospc/nineball', name: 'NineBall', component: NineBall},
 
   {path: '/2024/champions-challenge', name: 'ChampionsChallenge2024', component: ChampionsChallenge2024},
 

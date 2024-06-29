@@ -21,6 +21,9 @@
       <li>
         <router-link to="/2024/champions-challenge">2024 Champions Challenge</router-link>
       </li>
+      <li>
+        <router-link to="/2024/buffalospc">2024 Buffalo&lsquo;s Pro Classic</router-link>
+      </li>
     </ul>
   </main>
 </template>
