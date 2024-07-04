@@ -8,16 +8,11 @@
   </div>
 
   <div>
-    <h2>One Pocket - Tuesday</h2>
+    <h2>One Pocket - Part 1</h2>
     <ul>
       <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-tuesday-522c41?category_id=205099" target="poolmatches">
-          One Pocket Part 1
-        </a>
-      </li>
-      <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-tuesday-c2e82d?category_id=205099" target="poolmatches">
-          One Pocket Part 2
+        <a href="https://poolactiontv.com/programs/roberto-gomez-vs-evan-lunda-buffalos-pro-classic-one-pocket-2024-754a75?category_id=205099" target="poolmatches">
+          Roberto Gomez Vs Evan Lunda
         </a>
       </li>
     </ul>
