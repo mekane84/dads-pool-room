@@ -8,11 +8,11 @@
   </div>
 
   <div>
-    <h2>One Pocket - Saturday Part 1</h2>
+    <h2>One Pocket - Hot Seat Match</h2>
     <ul>
       <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-saturday-one-pocket-70d24b?category_id=205099" target="poolmatches">
-          One Pocket-Part 2 of Jeremy Seaman vs F Bustamante and the hotseat match Fedor Gorst v Roberto Gomez
+        <a href="https://poolactiontv.com/programs/roberto-gomez-vs-fedor-gorst-buffalos-pro-classic-one-pocket-2024-e08461?category_id=205099" target="poolmatches">
+          hotseat match Fedor Gorst v Roberto Gomez
         </a>
       </li>
     </ul>

@@ -25,11 +25,6 @@
           Francisco Bustamante Vs Jeremy Seaman Part 2
         </a>
       </li>
-      <li>
-        <a href="https://poolactiontv.com/programs/roberto-gomez-vs-roland-garcia-buffalos-pro-classic-one-pocket-2024-850ba8?category_id=205099" target="poolmatches">
-          Roberto Gomez Vs Roland Garcia
-        </a>
-      </li>
     </ul>
   </div>
 </template>

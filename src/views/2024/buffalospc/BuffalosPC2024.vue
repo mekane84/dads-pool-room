@@ -21,21 +21,21 @@ import OneIcon from "@/components/icons/IconOne.vue";
           <li>
             <router-link to="/2024/buffalospc/onepocket/wednesday-events-1">Part 2</router-link>
           </li>
-<!--          <li>-->
-<!--            <router-link to="/2024/buffalospc/onepocket/wednesday-events-2">Part 3</router-link>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <router-link to="/2024/buffalospc/onepocket/saturday-1">Saturday - Part 1</router-link>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <router-link to="/2024/buffalospc/onepocket/saturday-2">Saturday - Part 2</router-link>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <router-link to="/2024/buffalospc/onepocket/sunday-1">Sunday - Part 1</router-link>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <router-link to="/2024/buffalospc/onepocket/sunday-2">Sunday - Part 2</router-link>-->
-<!--          </li>-->
+          <li>
+            <router-link to="/2024/buffalospc/onepocket/wednesday-events-2">Part 3</router-link>
+          </li>
+          <li>
+            <router-link to="/2024/buffalospc/onepocket/saturday-1">Saturday - Part 1</router-link>
+          </li>
+          <li>
+            <router-link to="/2024/buffalospc/onepocket/saturday-2">Hot Seat Match</router-link>
+          </li>
+          <li>
+            <router-link to="/2024/buffalospc/onepocket/sunday-1">Semi Finals</router-link>
+          </li>
+          <li>
+            <router-link to="/2024/buffalospc/onepocket/sunday-2">Sunday - Part 2</router-link>
+          </li>
         </ul>
       </WelcomeItem>
 <!--      <WelcomeItem>-->

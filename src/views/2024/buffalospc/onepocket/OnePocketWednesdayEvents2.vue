@@ -8,21 +8,21 @@
   </div>
 
   <div>
-    <h2>One Pocket - Wednesday/Thursday/Friday + Events Part 2</h2>
+    <h2>One Pocket - Part 3</h2>
     <ul>
       <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-thursday-6bcea4?category_id=205099" target="poolmatches">
-          Efren Reyes v Evan Lunda and Side camera of Sky Woodward v Josh Roberts
+        <a href="https://poolactiontv.com/programs/tony-chohan-vs-alex-calderon-buffalos-pro-classic-one-pocket-2024-baf3d0?category_id=205099" target="poolmatches">
+          Tony Chohan v Alex Calderon
         </a>
       </li>
       <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-thursday-b958d9?category_id=205099" target="poolmatches">
-          Hall of Fame ceremony + Tony Chohan v Alex Calderon
+        <a href="https://poolactiontv.com/programs/fedor-gorst-vs-sky-woodward-buffalos-pro-classic-one-pocket-2024-023e63?category_id=205099" target="poolmatches">
+          Sky vs Fedor
         </a>
       </li>
       <li>
-        <a href="https://poolactiontv.com/programs/2024-buffalos-pro-classic-friday-f7575d?category_id=205099" target="poolmatches">
-          Sky vs Fedor and Roland Garcia vs Roberto Gomez
+        <a href="https://poolactiontv.com/programs/roberto-gomez-vs-roland-garcia-buffalos-pro-classic-one-pocket-2024-850ba8?category_id=205099" target="poolmatches">
+          Roberto Gomez Vs Roland Garcia
         </a>
       </li>
     </ul>
