@@ -30,7 +30,7 @@ const sortedYears = computed(() => {
 <template>
   <main>
     <div class="container">
-      Tournaments:
+      <h2>Tournaments:</h2>
       <div v-for="year in sortedYears" :key="year">
         <h3>{{ year }}</h3>
         <ul>
