@@ -10,7 +10,9 @@ import OneIcon from '../../../components/icons/IconOne.vue'
     </div>
     <h2>Day 1, Table 1</h2>
     <div style="margin-top: 10px; margin-bottom: 10px">
-      <a href="https://www.wnttv.com/video-player/vod/2025-us-open-pool-championship-day-one-table-one-full-session?entryIds=0_dn063hpu&feedId=ddde4b96-0d82-44aa-bf83-4dbc03fd14c4&previousPageUrl=vod-view-all%3FfeedId%3Dddde4b96-0d82-44aa-bf83-4dbc03fd14c4%26previousPageUrl%3D%26carouselMediaType%3DDynamic&pageMediaType=Dynamic">
+      <a
+          target="_blank"
+          href="https://www.wnttv.com/video-player/vod/2025-us-open-pool-championship-day-one-table-one-full-session?entryIds=0_dn063hpu&feedId=ddde4b96-0d82-44aa-bf83-4dbc03fd14c4&previousPageUrl=vod-view-all%3FfeedId%3Dddde4b96-0d82-44aa-bf83-4dbc03fd14c4%26previousPageUrl%3D%26carouselMediaType%3DDynamic&pageMediaType=Dynamic">
         Link to watch on wnt.tv
       </a>
     </div>
