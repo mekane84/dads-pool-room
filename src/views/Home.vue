@@ -2,7 +2,7 @@
 import { computed } from 'vue';
 
 const tournaments = [
-  { name: "US Open", path: "/2025usopen", year: 2025 },
+  { name: "US Open", path: "/2025/usopen", year: 2025 },
   { name: "Buffalo's Pro Classic", path: "/2024/buffalospc", year: 2024 },
   { name: "Champions Challenge", path: "/2024/champions-challenge", year: 2024 },
   { name: "Scotty Townsend Memorial", path: "/2024/scottytownsendmemorial", year: 2024 },
