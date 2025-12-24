@@ -39,7 +39,13 @@ import OneIcon from '../../../components/icons/IconOne.vue'
         Carlo Biado vs Jason Munro
       </li>
       <li>
-        more....
+        Johann Chua vs Quinten Pongers
+      </li>
+      <li>
+        Felix Vogel vs Earl Strickland
+      </li>
+      <li>
+        Shane Van Boening vs Adam Sisneros
       </li>
     </ul>
   </main>
