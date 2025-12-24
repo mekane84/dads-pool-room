@@ -39,7 +39,7 @@ h2 {
 .subtitle {
   font-weight: normal;
   color: #888;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: 0;
 }
 </style>
