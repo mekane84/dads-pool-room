@@ -1,32 +1,54 @@
 @import 'base.css';
 
+:root {
+  /*--color-primary: hsl(21, 73%, 55%);*/
+  /*--color-primary: #f8f9fa;*/
+  --color-primary: #ced4da;
+  /*--color-primary: #e2e2e2;*/
+  --color-heading: hsla(19, 50%, 41%);
+  --color-hover-bg: hsla(23, 61%, 35%, 0.15);
+  --max-width: 1680px;
+  --transition-speed: 0.3s;
+}
+
 #app {
-  max-width: 1680px;
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
+  min-height: 100vh;
+}
+
+/* Links & Typography */
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+  padding: 0.2rem 0.4rem;
+  margin: -0.2rem -0.4rem;
+  border-radius: 4px;
 }
 
 h1 a {
-  color: hsla(21, 70%, 30%, 0.86);
+  color: var(--color-heading);
 }
 
-a {
-  text-decoration: none;
-  color: hsl(21, 73%, 55%);
-  transition: 0.4s;
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /*color: #e0a800; !* A gold/amber color looks great on dark backgrounds *!*/
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(23, 61%, 35%, 0.25);
-  }
-  h1 a:hover {
-    background-color: hsla(23, 61%, 35%, 0.16);
+    background-color: var(--color-hover-bg);
   }
 }
 
+/* Layout Strategy */
 @media (min-width: 1024px) {
   body {
     display: flex;
@@ -36,31 +58,65 @@ a {
   #app {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 0 2rem;
-
+    padding: 0 4rem;
     column-gap: 6rem;
+    align-items: center;
   }
 }
 
-body:before {
+/* Background Image Overlay */
+body::before {
   content: "";
-
-  background: url('/src/assets/dad-pool.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  position: absolute;
+  position: fixed; /* Fixed is usually better than absolute for full-page backgrounds */
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-
-  opacity: 0.15;
-
+  width: 100%;
+  height: 100%;
+  
+  /*background:  url('/src/assets/dad-pool.jpg') no-repeat center center;*/
+  /* Keep your image, but add a dark tint */
+  background: url('/src/assets/dad-pool.jpg') no-repeat center center;
+  /*color: #f0f0f0; !* Lighter text color for better contrast *!*/
+  background-size: cover;
+  
+  opacity: 0.12;
   z-index: -1;
+  pointer-events: none; /* Ensures the overlay doesn't block clicks */
 }
 
 @media (min-width: 1024px) {
-  body:before {
+  body::before {
     background-size: contain;
   }
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.2); /* Semi-transparent black */
+  backdrop-filter: blur(5px); /* Optional: creates a frosted glass effect */
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 800px;
+  margin: 50px auto; /* Centers the box */
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+ul {
+  list-style: none; /* Removes bullets */
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  /*color: #fff;*/
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e0a800; /* Gold hover effect */
 }
