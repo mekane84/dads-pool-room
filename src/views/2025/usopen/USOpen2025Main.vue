@@ -27,6 +27,9 @@ import OneIcon from '../../../components/icons/IconOne.vue'
         <li>
           <router-link to="/2025/usopen/quarterfinals">Quarterfinals</router-link>
         </li>
+        <li>
+          <router-link to="/2025/usopen/semifinals">Semifinals</router-link>
+        </li>
       </ul>
     </WelcomeItem>
   </main>
