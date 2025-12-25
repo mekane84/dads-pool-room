@@ -21,6 +21,9 @@ import OneIcon from '../../../components/icons/IconOne.vue'
         <li>
           <router-link to="/2025/usopen/day2">Day Two &ndash; Table One</router-link>
         </li>
+        <li>
+          <router-link to="/2025/usopen/day5">Last 16</router-link>
+        </li>
       </ul>
     </WelcomeItem>
   </main>
