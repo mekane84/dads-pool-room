@@ -8,7 +8,7 @@ import OneIcon from '../../../components/icons/IconOne.vue'
     <div style="margin-bottom: 10px">
       <router-link to="/2025/usopen">Back to 2025 US Open</router-link>
     </div>
-    <h2>Semifinals (Table 1)</h2>
+    <h2>Semifinals</h2>
     <div style="margin-top: 10px; margin-bottom: 10px">
       <a
           target="_blank"

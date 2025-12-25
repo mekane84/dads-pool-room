@@ -15,6 +15,7 @@ import USOpen2025DayTwo from '@/views/2025/usopen/USOpen2025DayTwoCoverage.vue'
 import USOpen2025DayFive from '@/views/2025/usopen/USOpen2025DayFiveCoverage.vue'
 import USOpen2025Quarterfinals from '@/views/2025/usopen/USOpen2025Quarterfinals.vue'
 import USOpen2025Semifinals from '@/views/2025/usopen/USOpen2025SemifinalsCoverage.vue'
+import USOpen2025Finals from '@/views/2025/usopen/FinalsTableOneCoverage.vue'
 import DayOneRoundOne from "@/views/2023usopen/DayOneRoundOne.vue";
 import DayOneRoundTwo from "@/views/2023usopen/DayOneRoundTwo.vue";
 import DayTwoRoundOne from "@/views/2023usopen/DayTwoRoundOne.vue";
@@ -75,6 +76,7 @@ const routes = [
       {path: '/2025/usopen/day5', name: 'USOpen2025DayFive', component: USOpen2025DayFive},
       {path: '/2025/usopen/quarterfinals', name: 'USOpen2025Quarterfinals', component: USOpen2025Quarterfinals},
       {path: '/2025/usopen/semifinals', name: 'USOpen2025Semifinals', component: USOpen2025Semifinals},
+      {path: '/2025/usopen/finals', name: 'USOpen2025Finals', component: USOpen2025Finals},
 
           {path: '/2024/buffalospc', name: 'BuffalosPC2024', component: BuffalosPC2024},
   {path: '/2024/buffalospc/onepocket/tuesday', name: 'OnePocketTuesday', component: OnePocketTuesday},
