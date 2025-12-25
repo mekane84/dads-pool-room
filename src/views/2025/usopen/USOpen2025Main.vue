@@ -1,6 +1,10 @@
 <script setup>
 import WelcomeItem from '../../../components/WelcomeItem.vue'
 import OneIcon from '../../../components/icons/IconOne.vue'
+import IconEcosystem from "@/components/icons/IconEcosystem.vue";
+import IconFolderTree from "@/components/icons/IconFolderTree.vue";
+import IconSemi from "@/components/icons/IconSemi.vue";
+import IconFinals from "@/components/icons/IconFinals.vue";
 // Import other icons as needed, similar to 2023USOpen.vue
 </script>
 
@@ -16,20 +20,48 @@ import OneIcon from '../../../components/icons/IconOne.vue'
       </template>
       <ul>
         <li>
-          <router-link to="/2025/usopen/day1">Day One &ndash; Table One</router-link>
+          <router-link to="/2025/usopen/day1">Day One</router-link>
         </li>
         <li>
-          <router-link to="/2025/usopen/day2">Day Two &ndash; Table One</router-link>
+          <router-link to="/2025/usopen/day2">Day Two</router-link>
         </li>
+      </ul>
+    </WelcomeItem>
+    <WelcomeItem>
+      <template #icon>
+        <IconFolderTree />
+      </template>
+      <ul>
         <li>
           <router-link to="/2025/usopen/day5">Last 16</router-link>
         </li>
+      </ul>
+    </WelcomeItem>
+    <WelcomeItem>
+      <template #icon>
+        <IconEcosystem />
+      </template>
+      <ul>
         <li>
           <router-link to="/2025/usopen/quarterfinals">Quarterfinals</router-link>
         </li>
+      </ul>
+    </WelcomeItem>
+    <WelcomeItem>
+      <template #icon>
+        <IconSemi />
+      </template>
+      <ul>
         <li>
           <router-link to="/2025/usopen/semifinals">Semifinals</router-link>
         </li>
+      </ul>
+    </WelcomeItem>
+    <WelcomeItem>
+      <template #icon>
+        <IconFinals />
+      </template>
+      <ul>
         <li>
           <router-link to="/2025/usopen/finals">Finals</router-link>
         </li>
