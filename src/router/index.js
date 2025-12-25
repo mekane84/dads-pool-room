@@ -13,6 +13,7 @@ import USOpen2025Index from '@/views/2025/usopen/USOpen2025Main.vue'
 import USOpen2025DayOne from '@/views/2025/usopen/USOpen2025DayOneCoverage.vue'
 import USOpen2025DayTwo from '@/views/2025/usopen/USOpen2025DayTwoCoverage.vue'
 import USOpen2025DayFive from '@/views/2025/usopen/USOpen2025DayFiveCoverage.vue'
+import USOpen2025Quarterfinals from '@/views/2025/usopen/USOpen2025Quarterfinals.vue'
 import DayOneRoundOne from "@/views/2023usopen/DayOneRoundOne.vue";
 import DayOneRoundTwo from "@/views/2023usopen/DayOneRoundTwo.vue";
 import DayTwoRoundOne from "@/views/2023usopen/DayTwoRoundOne.vue";
@@ -67,12 +68,13 @@ const routes = [
 
   {path: '/', name: 'Home', component: Home},
 
-  {path: '/2025/usopen', name: 'USOpen2025Index', component: USOpen2025Index},
-  {path: '/2025/usopen/day1', name: 'USOpen2025DayOne', component: USOpen2025DayOne},
-  {path: '/2025/usopen/day2', name: 'USOpen2025DayTwo', component: USOpen2025DayTwo},
-  {path: '/2025/usopen/day5', name: 'USOpen2025DayFive', component: USOpen2025DayFive},
+      {path: '/2025/usopen', name: 'USOpen2025Index', component: USOpen2025Index},
+      {path: '/2025/usopen/day1', name: 'USOpen2025DayOne', component: USOpen2025DayOne},
+      {path: '/2025/usopen/day2', name: 'USOpen2025DayTwo', component: USOpen2025DayTwo},
+      {path: '/2025/usopen/day5', name: 'USOpen2025DayFive', component: USOpen2025DayFive},
+      {path: '/2025/usopen/quarterfinals', name: 'USOpen2025Quarterfinals', component: USOpen2025Quarterfinals},
 
-  {path: '/2024/buffalospc', name: 'BuffalosPC2024', component: BuffalosPC2024},
+      {path: '/2024/buffalospc', name: 'BuffalosPC2024', component: BuffalosPC2024},
   {path: '/2024/buffalospc/onepocket/tuesday', name: 'OnePocketTuesday', component: OnePocketTuesday},
   {path: '/2024/buffalospc/onepocket/wednesday-events-1', name: 'OnePocketWednesdayEvents1', component: OnePocketWednesdayEvents1},
   {path: '/2024/buffalospc/onepocket/wednesday-events-2', name: 'OnePocketWednesdayEvents2', component: OnePocketWednesdayEvents2},
