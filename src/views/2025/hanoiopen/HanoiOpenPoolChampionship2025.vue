@@ -28,6 +28,9 @@ import IconFinals from "@/components/icons/IconFinals.vue";
           <li>
             <router-link to="/2025/hanoi-open/day2">Day 2</router-link>
           </li>
+          <li>
+            <router-link to="/2025/hanoi-open/day3">Day 3</router-link>
+          </li>
         </ul>
       </WelcomeItem>
     </div>
