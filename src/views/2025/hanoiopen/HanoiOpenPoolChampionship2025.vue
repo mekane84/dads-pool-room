@@ -26,7 +26,7 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <template #heading>Match Coverage</template>
         <ul>
           <li>
-            <a href="https://www.youtube.com/@MatchroomPool" target="_blank">Official Matchroom Pool Coverage</a>
+            <router-link to="/2025/hanoi-open/day2">Day 2</router-link>
           </li>
         </ul>
       </WelcomeItem>

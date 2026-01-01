@@ -57,6 +57,7 @@ import STM20249BSemiFinal from "@/views/2024/stmemorial/nineball/STM20249BSemiFi
 import STM20249BFinal from "@/views/2024/stmemorial/nineball/STM20249BFinal.vue";
 import ChampionsChallenge2024 from "@/views/2024/championschallenge/ChampionsChallenge2024.vue";
 import HanoiOpen2025 from "@/views/2025/hanoiopen/HanoiOpenPoolChampionship2025.vue";
+import HanoiOpen2025DayTwo from "@/views/2025/hanoiopen/HanoiOpenDay2Coverage.vue";
 import BuffalosPC2024 from "@/views/2024/buffalospc/BuffalosPC2024.vue";
 import OnePocketTuesday from "@/views/2024/buffalospc/onepocket/OnePocketTuesday.vue";
 import OnePocketWednesdayEvents1 from "@/views/2024/buffalospc/onepocket/OnePocketWednesdayEvents1.vue";
@@ -72,6 +73,7 @@ const routes = [
   {path: '/', name: 'Home', component: Home},
 
   {path: '/2025/hanoi-open', name: 'HanoiOpen2025', component: HanoiOpen2025},
+  {path: '/2025/hanoi-open/day2', name: 'HanoiOpen2025DayTwo', component: HanoiOpen2025DayTwo},
 
       {path: '/2025/usopen', name: 'USOpen2025Index', component: USOpen2025Index},
       {path: '/2025/usopen/day1', name: 'USOpen2025DayOne', component: USOpen2025DayOne},
