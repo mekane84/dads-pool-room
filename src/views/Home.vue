@@ -2,6 +2,7 @@
 import { computed } from 'vue';
 
 const tournaments = [
+  { name: "Hanoi Open Pool Championship", path: "/2025/hanoi-open", year: 2025, date: "Oct 7-12" },
   { name: "US Open Pool Championship", path: "/2025/usopen", year: 2025, date: "Aug 18-23" },
   { name: "Buffalo's Pro Classic", path: "/2024/buffalospc", year: 2024, date: "Nov 25-29" },
   { name: "Champions Challenge", path: "/2024/champions-challenge", year: 2024, date: "Oct 15-17" },
