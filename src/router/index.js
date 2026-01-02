@@ -63,6 +63,7 @@ import HanoiOpen2025DayFour from "@/views/2025/hanoiopen/HanoiOpenDay4Coverage.v
 import HanoiOpen2025DayFive from "@/views/2025/hanoiopen/HanoiOpenDay5Coverage.vue";
 import HanoiOpen2025Quarterfinals from "@/views/2025/hanoiopen/HanoiOpen2025QuarterfinalsCoverage.vue";
 import HanoiOpen2025Semifinals from "@/views/2025/hanoiopen/HanoiOpenPoolChampionship2025SemifinalsCoverage.vue";
+import HanoiOpen2025Finals from "@/views/2025/hanoiopen/HanoiOpenFinalsCoverage.vue";
 import BuffalosPC2024 from "@/views/2024/buffalospc/BuffalosPC2024.vue";
 import OnePocketTuesday from "@/views/2024/buffalospc/onepocket/OnePocketTuesday.vue";
 import OnePocketWednesdayEvents1 from "@/views/2024/buffalospc/onepocket/OnePocketWednesdayEvents1.vue";
@@ -84,6 +85,7 @@ const routes = [
   {path: '/2025/hanoi-open/day5', name: 'HanoiOpen2025DayFive', component: HanoiOpen2025DayFive},
   {path: '/2025/hanoi-open/quarterfinals', name: 'HanoiOpen2025Quarterfinals', component: HanoiOpen2025Quarterfinals},
   {path: '/2025/hanoi-open/semifinals', name: 'HanoiOpen2025Semifinals', component: HanoiOpen2025Semifinals},
+  {path: '/2025/hanoi-open/finals', name: 'HanoiOpen2025Finals', component: HanoiOpen2025Finals},
 
       {path: '/2025/usopen', name: 'USOpen2025Index', component: USOpen2025Index},
       {path: '/2025/usopen/day1', name: 'USOpen2025DayOne', component: USOpen2025DayOne},

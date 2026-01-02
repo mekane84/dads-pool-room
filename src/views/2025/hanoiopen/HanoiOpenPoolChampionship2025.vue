@@ -49,8 +49,11 @@ import IconFinals from "@/components/icons/IconFinals.vue";
               <li>
                 <router-link to="/2025/hanoi-open/semifinals">Semi Finals</router-link>
               </li>
-            </ul>
-          </WelcomeItem>
+              <li>
+                <router-link to="/2025/hanoi-open/finals">Finals</router-link>
+              </li>
+                </ul>
+              </WelcomeItem>
         </div>
   </main>
 </template>
