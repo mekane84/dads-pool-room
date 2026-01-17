@@ -64,6 +64,8 @@ import HanoiOpen2025DayFive from "@/views/2025/hanoiopen/HanoiOpenDay5Coverage.v
 import HanoiOpen2025Quarterfinals from "@/views/2025/hanoiopen/HanoiOpen2025QuarterfinalsCoverage.vue";
 import HanoiOpen2025Semifinals from "@/views/2025/hanoiopen/HanoiOpenPoolChampionship2025SemifinalsCoverage.vue";
 import HanoiOpen2025Finals from "@/views/2025/hanoiopen/HanoiOpenFinalsCoverage.vue";
+import ReyesCup2025 from "@/views/2025/reyescup/ReyesCup2025.vue";
+import ReyesCup2025Match1 from "@/views/2025/reyescup/ReyesCup2025Match1.vue";
 import BuffalosPC2024 from "@/views/2024/buffalospc/BuffalosPC2024.vue";
 import OnePocketTuesday from "@/views/2024/buffalospc/onepocket/OnePocketTuesday.vue";
 import OnePocketWednesdayEvents1 from "@/views/2024/buffalospc/onepocket/OnePocketWednesdayEvents1.vue";
@@ -77,6 +79,9 @@ import NineBall from "@/views/2024/buffalospc/nineball/NineBall.vue";
 const routes = [
 
   {path: '/', name: 'Home', component: Home},
+
+  {path: '/2025/reyes-cup', name: 'ReyesCup2025', component: ReyesCup2025},
+  {path: '/2025/reyes-cup/match1', name: 'ReyesCup2025Match1', component: ReyesCup2025Match1},
 
   {path: '/2025/hanoi-open', name: 'HanoiOpen2025', component: HanoiOpen2025},
   {path: '/2025/hanoi-open/day2', name: 'HanoiOpen2025DayTwo', component: HanoiOpen2025DayTwo},
