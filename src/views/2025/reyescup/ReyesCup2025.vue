@@ -2,6 +2,7 @@
 import WelcomeItem from "@/components/WelcomeItem.vue";
 import IconTooling from "@/components/icons/IconTooling.vue";
 import IconFinals from "@/components/icons/IconFinals.vue";
+import IconOne from "@/components/icons/IconOne.vue";
 </script>
 
 <template>
@@ -32,6 +33,9 @@ import IconFinals from "@/components/icons/IconFinals.vue";
         <ul>
           <li>
             <router-link to="/2025/reyes-cup/match1">Match 1 &ndash; Team Asia vs Team ROW</router-link>
+          </li>
+          <li>
+            <router-link to="/2025/reyes-cup/match2">Match 2 &ndash; Yapp & Manas vs Shaw & Sanchez Ruiz</router-link>
           </li>
         </ul>
       </WelcomeItem>
