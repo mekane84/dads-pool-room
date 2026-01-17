@@ -37,6 +37,9 @@ import IconOne from "@/components/icons/IconOne.vue";
           <li>
             <router-link to="/2025/reyes-cup/match2">Match 2 &ndash; Yapp & Manas vs Shaw & Sanchez Ruiz</router-link>
           </li>
+          <li>
+            <router-link to="/2025/reyes-cup/match3">Match 3 &ndash; Carlo Biado vs Moritz Neuhausen</router-link>
+          </li>
         </ul>
       </WelcomeItem>
     </div>
